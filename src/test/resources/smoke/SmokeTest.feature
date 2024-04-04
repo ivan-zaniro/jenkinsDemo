@@ -7,6 +7,7 @@ Feature: AutoRegister Page Functionality
     And User clicks login button
     Then System redirects to dashboard page "Dashboard"
 
+@ivan
   Scenario: Verify User able to login with correct credentials FAIL
     Given User navigates to login page "https://ntkhr.noortecktraining.com/"
     When User enters username "ntk-admin"
@@ -15,6 +16,7 @@ Feature: AutoRegister Page Functionality
     Then System redirects to dashboard page "Dashboard"
     Then System redirects to dashboard pages "Failed"
 
+@ivan
   Scenario: Verify User able to login with correct credentials FAIL
     Given User navigates to login page "https://ntkhr.noortecktraining.com/"
     When User enters username "ntk-admin"
